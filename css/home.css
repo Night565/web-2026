@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+    min-width: 1280px;
+}
+
+.sidebar {
+    width: 72px;
+    height: 100vh;
+    border-right: 1px solid #2222220D;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.sidebar__list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar__item {
+    width: 40px;
+    height: 40px;
+    margin: 12px auto;
+    border-radius: 10px;
+}
+
+.feed {
+    display: inline-block;
+    vertical-align: top;
+    width: 1200px;
+    font-family: 'Golos Text', 'Golos UI', sans-serif;
+}
+
+.feed__header {
+    height: 73px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.post {
+    width: 474px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.post__user-row {
+    margin-bottom: 12px;
+}
+
+.post__avatar {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 6px;
+}
+
+.post__author {
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 16px;
+    margin: 0 10px;
+    letter-spacing: -0.15px;
+}
+
+.post__edit {
+    background: none;
+    border: none;
+    padding: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.post__image-wrapper {
+    width: 100%;
+    display: block;
+    border-radius: 8px;
+}
+
+.post__image {
+    width: 474px;
+    height: 474px;
+    margin-bottom: 16px;
+    object-fit: cover;
+    display: block;
+}
+
+.post__like-btn {
+    background-color: rgba(34, 34, 34, 0.05);
+    color: #222222;
+    border: none;
+    padding: 0;
+    width: 68px;
+    height: 30px;
+    border-radius: 8px;
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    text-align: center;
+}
+
+.post__text {
+    width: 474px;
+    height: 37px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 16px;
+    letter-spacing: -0.15px;
+    color: #222222;
+}
+
+.post__date {
+    height: 18px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    vertical-align: middle;
+    color: rgba(34, 34, 34, 0.5);;
+    margin-top: 5px;
+}

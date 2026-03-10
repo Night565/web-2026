@@ -1,0 +1,80 @@
+.login {
+    font-family: 'Golos Text', 'Golos UI', sans-serif;
+    padding: 60px;
+    margin-left: 50px;
+}
+
+.login__decoration {
+    display: inline-block;
+    width: 462px;
+    vertical-align: top;
+    font-size: 16px;
+}
+
+.login__title {
+    color:#222222;
+    font-size: 140px;
+    line-height: 180px;
+    font-weight: 700;
+    letter-spacing: -1.5px;
+    margin: 0;
+}
+
+.login__image {
+    width: 462px;
+    height: 501px;
+    display: block;
+}
+
+.login__form {
+    display: inline-block;
+    vertical-align: top;
+    width: 343px;
+    height: 251px;
+    margin-top: 250px;
+    margin-left: 100px;
+    font-size: 16px;
+}
+
+.login__label {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    margin-bottom: 5px;
+    display: block;
+    color: #222222;
+}
+
+.login__input {
+    width: 343px;
+    height: 44px;
+    padding: 0 12px;
+    border-radius: 10px;
+    display: block;
+    border: none;
+    box-sizing: border-box;
+    background-color: #F2F3F5;
+}
+
+.login__hint {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: -0.08px;
+    margin-top: 5px;
+    margin-bottom: 16px;
+    color:#808080;
+}
+
+.login__button {
+    width: 343px;
+    height: 48px;
+    border-radius: 10px;
+    padding: 0 16px;
+    border: none;
+    margin-top: 32px;
+    background-color: #222222;
+    color: #FFFFFF;
+    display: block;
+}
